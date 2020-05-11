@@ -1,0 +1,105 @@
+/* CSS files add styling rules to your content */
+
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  color: black;
+  text-align:center;
+}
+
+.nav-item{
+  margin-left:50%;
+}
+
+#search{
+  margin-top:10px;
+  grid-area: 4/2/5/3;
+}
+
+h2{
+   text-align:center;
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:80px 80px 660px 40px 300px 200px ;
+  grid-gap:20px;
+}
+
+#navbar{
+grid-area:1/1/2/4;
+}
+
+#words{
+  grid-area:2/1/3/4;
+}
+
+#carouselExampleInterval{
+  
+  grid-column-start:1;
+grid-column-end:4;
+  grid-row-start:3;
+grid-row-end:4;
+}
+
+#api{
+    grid-area: 5/2/6/3;
+font-family: 'Staatliches', cursive;
+font-size:50px;
+}
+
+#pic1{
+
+  grid-column-start:1;
+grid-column-end:2;
+  grid-row-start:5;
+grid-row-end:6;
+}
+
+#pic2{
+ 
+  grid-column-start:3;
+grid-column-end:4;
+  grid-row-start:5;
+grid-row-end:6;
+}
+
+#c1{
+ 
+  margin-left: auto;
+    margin-right: auto;
+  grid-column-start:1;
+grid-column-end:2;
+  grid-row-start:7;
+grid-row-end:8;
+    
+}
+
+#c2{
+
+  margin-left: auto;
+    margin-right: auto;
+  grid-column-start:2;
+grid-column-end:3;
+  grid-row-start:7;
+grid-row-end:8;
+    
+}
+
+#c3{
+ 
+  margin-left: auto;
+    margin-right: auto;
+  grid-column-start:3;
+grid-column-end:4;
+  grid-row-start:7;
+grid-row-end:8;
+   
+}
+
